@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap 101 Template</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <!-- Bootstrap -->
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header id="header">
+        <!-- 上部分 -->
+        <div class="top-bar hidden-xs hidden-sm text-center text-muted">
+            <div class="container">
+                <div class="row">
+                    <div class="top-bar-1 col-md-2">
+                        <a href="#" class="text-muted">
+                            <i class="iconfont icon-shouji"></i>
+                            <span>关注微信号</span>
+                            <i class="glyphicon glyphicon-triangle-bottom"></i>
+                            <img src="img/erweima.jpg" alt="二维码" width="100">
+                        </a>
+                    </div>
+                    <div class="top-bar-2 col-md-5">
+                        <i class="iconfont icon-dianhua"></i>
+                        <span>400-990-8888 服务时间: 周一至周日 9:00——18:00 </span>
+                    </div>
+                    <div class="top-bar-3 col-md-2">
+                        <a class="text-muted" href="">校企合作</a>
+                        <a class="text-muted" href="">培训师</a>
+                    </div>
+                    <div class="top-bar-4 col-md-3">
+                        <input class="btn btn-regsiter btn-sm" type="button" value="免费注册">
+                        <a href="" class="text-muted" style="margin-left: 10px;">立即登录</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 下部分 -->
+        <nav id="nav" class="navbar navbar-default">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Brand</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">关于我们 </a></li>
+                        <li><a href="#">课程介绍</a></li>
+                        <li><a href="#">热门课程</a></li>
+                        <li><a href="#">名师授课</a></li>
+                        <li><a href="#">课堂互动</a></li>
+                        <li><a href="#">联系我们</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right hidden-xs hidden-sm">
+                        <li><a href="#">个人中心</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </header>
+    <!-- /头部 -->
+    <!-- 轮播图 -->
+    <section id="carousel-bp" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-bp" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-bp" data-slide-to="1"></li>
+            <li data-target="#carousel-bp" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active" data-sm-img="img/slide1-sm.jpg" data-lg-img="img/slide1.jpg">
+            </div>
+            <div class="item" data-sm-img="img/slide2-sm.jpg" data-lg-img="img/slide2.jpg">
+            </div>
+            <div class="item" data-sm-img="img/slide3-sm.jpg" data-lg-img="img/slide3.jpg">
+            </div>
+        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-bp" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-bp" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </section>
+    <!-- /轮播图 -->
+    <!-- 关于我们 -->
+    <section id="about">
+        <div class="title">
+            <h1 class="text-center"><strong>关于我们</strong></h1>
+            <img src="img/xx.png" alt="" class="img-responsive">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <p class="text-muted">屏幕阅读器是一种可将文字、图形以及电脑接口的其他部分（藉文字转语音技术）转换成语音及/或点字的软件。</p>
+                    <p class="text-muted">Freedom Scientific的JAWS GW Micro的Window-Eyes Dolphin的Hal Alva Access Group的OutSpoken（在Mac OS 9中断了） Linux的Speakup屏幕阅读器 2004年，苹果电脑宣布Mac OS X将有功能完备的屏幕阅读器。后来这被命名为VoiceOver。</p>
+                    <p class="text-muted">前端开发是创建Web页面或app等前端界面呈现给用户的过程，通过HTML，CSS及JavaScript以及衍生出来的各种技术、框架、解决方案，来实现互联网产品的用户界面交互 [1] 。它从网页制作演变而来，名称上有很明显的时代特征。在互联网的演化进程中，网页制作是Web1.0时代的产物，早期网站主要内容都是静态，以图片和文字为主，用户使用网站的行为也以浏览为主。随着互联网技术的发展和HTML5、CSS3的应用，现代网页更加美观，交互效果显著，功能更加强大。</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/team.jpg" alt="" class="img-rounded img-responsive">
+                </div>
+                <div></div>
+            </div>
+        </div>
+    </section>
+    <!-- /关于我们 -->
+    <!-- 产品特色 -->
+    <section id="product">
+        <div class="container">
+            <div class="row">
+                <!-- 选项卡 -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#product1" aria-controls="home" role="tab" data-toggle="tab">在线大学</a></li>
+                    <li role="presentation"><a href="#product2" aria-controls="profile" role="tab" data-toggle="tab">会员专享</a></li>
+                    <li role="presentation"><a href="#product3" aria-controls="messages" role="tab" data-toggle="tab">优质视频</a></li>
+                    <li class="pull-right hidden-xs hidden-sm"><a href="#product4" role="tab" aria-controls="settings" data-toggle="tab">更多</a></li>
+                </ul>
+                <!-- 对于展示的内容面板 -->
+                <div class="tab-content">
+                    <!-- 面板一 -->
+                    <div role="tabpanel" class="tab-pane fade in active" id="product1">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8 pd_left">
+                                    <!-- 第一部分 -->
+                                    <div id="pd_one_1">
+                                        <div class="media-left">
+                                            <a href="#">
+                                                <img class="media-object" src="img/erweima.jpg" width="140" alt="..." class="img-responsive">
+                                            </a>
+                                        </div>
+                                        <div class="media-body text-muted" style="padding-top: 100px">
+                                            <h5 class="media-heading">更多资讯欢迎</h5>
+                                            <h5 class="media-heading">关注前端学院</h5>
+                                        </div>
+                                    </div>
+                                    <!-- 第二部分 -->
+                                    <ol id="pd_one_2" class="breadcrumb lead">
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#">Library</a></li>
+                                        <li class="active">Data</li>
+                                        <li class="active">trigger</li>
+                                    </ol>
+                                    <!-- 第三部分 -->
+                                    <h1 id="pd_one_3">
+                                        欢迎来到IT人的在线课堂 &nbsp;
+                                        <strong class="text-danger">前端大学</strong>
+                                    </h1>
+                                    <!-- 第四部分 -->
+                                    <div id="pd_one_4">
+                                        <button class="btn btn-primary btn-lg" style="margin-right: 30px" type="submit">在线咨询</button>
+                                        <button class="btn btn-default btn-lg" type="submit">了解更多</button>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 hidden-xs hidden-sm">
+                                    <img src="img/phone.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 面板二 -->
+                    <div role="tabpanel" class="tab-pane fade" id="product2">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4 hidden-xs hidden-sm">
+                                    <img src="img/phone2.png" alt="">
+                                </div>
+                                <div id="pd_two_1" class="col-md-8 pd_left">
+                                    <h1 class="text-warning">课程介绍</h1>
+                                    <p class="lead">前端开发是创建Web页面或app等前端界面呈现给用户的过程，通过HTML，CSS及JavaScript以及衍生出来的各种技术、框架、解决方案，来实现互联网产品的用户界面交互 [1] 。它从网页制作演变而来，名称上有很明显的时代特征。在互联网的演化进程中，网页制作是Web1.0时代的产物，早期网站主要内容都是静态，以图片和文字为主，用户使用网站的行为也以浏览为主。随着互联网技术的发展和HTML5、CSS3的应用，现代网页更加美观，交互效果显著，功能更加强大。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 面板三 -->
+                    <div role="tabpanel" class="tab-pane fade" id="product3">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6 pd_left">
+                                    <h1>
+                                        <strong class="text-danger">案例驱动·体系贯穿·全面系统</strong>
+                                    </h1>
+                                    <h3>
+                                        10-15分钟的视频
+                                        <span class="text-warning">知识点拆分讲解</span>
+                                    </h3>
+                                    <h4 class="text-muted" style="margin:15px 0; line-height: 25px;">
+                                        前端开发是创建Web页面或app等前端界面呈现给用户的过程，通过HTML，CSS及JavaScript以及衍生出来的各种技术、框架、解决方案，来实现互联网产品的用户界面交互 [1] 。
+                                    </h4>
+                                    <div class="badge" style="padding: 15px 10px; cursor: pointer;">
+                                        已更新4000+视频|100000+人订阅
+                                    </div>
+                                </div>
+                                <div class="col-md-6 hidden-xs hidden-sm">
+                                    <img src="img/video.png" alt="" class="img-responsive">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /产品特色 -->
+    <!-- 热门课程 -->
+    <section id="hot">
+        <!-- 标题 -->
+        <div class="title">
+            <h1 class="text-center"><strong>热门课程</strong></h1>
+            <img src="img/xx.png" alt="" class="img-responsive">
+        </div>
+        <!-- 内容 -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 lesson">
+                    <div class="media">
+                        <div class="media-left">
+                            <img class="media-object img-responsive img-thumbnail img-circle " src="img/actor1.jpeg" alt="..." width="100">
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">
+                                <span class="text-danger">【热】</span>
+                                从零玩转HTML5+跨平台
+                            </h4>
+                            <p class="text-muted" style="margin-top: 10px;">
+                                屏幕阅读器是一种可将文字、图形以及电脑接口的其他部分（藉文字转语音技术）转换成语音及/或点字的软件。
+                            </p>
+                        </div>
+                        <div class="media-right text-danger">
+                            206节课
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 lesson">
+                    <div class="media">
+                        <div class="media-left">
+                            <img class="media-object img-responsive img-thumbnail img-circle " src="img/actor2.jpg" alt="..." width="100">
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">
+                                <span class="text-danger">【热】</span>
+                                从零玩转HTML5+跨平台
+                            </h4>
+                            <p class="text-muted" style="margin-top: 10px;">
+                                屏幕阅读器是一种可将文字、图形以及电脑接口的其他部分（藉文字转语音技术）转换成语音及/或点字的软件。
+                            </p>
+                        </div>
+                        <div class="media-right text-danger">
+                            206节课
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 lesson">
+                    <div class="media">
+                        <div class="media-left">
+                            <img class="media-object img-responsive img-thumbnail img-circle " src="img/actor3.jpg" alt="..." width="100">
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">
+                                <span class="text-danger">【热】</span>
+                                从零玩转HTML5+跨平台
+                            </h4>
+                            <p class="text-muted" style="margin-top: 10px;">
+                                屏幕阅读器是一种可将文字、图形以及电脑接口的其他部分（藉文字转语音技术）转换成语音及/或点字的软件。
+                            </p>
+                        </div>
+                        <div class="media-right text-danger">
+                            206节课
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 lesson">
+                    <div class="media">
+                        <div class="media-left">
+                            <img class="media-object img-responsive img-thumbnail img-circle " src="img/actor4.jpeg" alt="..." width="100">
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">
+                                <span class="text-danger">【热】</span>
+                                从零玩转HTML5+跨平台
+                            </h4>
+                            <p class="text-muted" style="margin-top: 10px;">
+                                屏幕阅读器是一种可将文字、图形以及电脑接口的其他部分（藉文字转语音技术）转换成语音及/或点字的软件。
+                            </p>
+                        </div>
+                        <div class="media-right text-danger">
+                            206节课
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 lesson">
+                    <div class="media">
+                        <div class="media-left">
+                            <img class="media-object img-responsive img-thumbnail img-circle " src="img/actor5.jpg" alt="..." width="100">
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">
+                                <span class="text-danger">【热】</span>
+                                从零玩转HTML5+跨平台
+                            </h4>
+                            <p class="text-muted" style="margin-top: 10px;">
+                                屏幕阅读器是一种可将文字、图形以及电脑接口的其他部分（藉文字转语音技术）转换成语音及/或点字的软件。
+                            </p>
+                        </div>
+                        <div class="media-right text-danger">
+                            206节课
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 lesson">
+                    <div class="media">
+                        <div class="media-left">
+                            <img class="media-object img-responsive img-thumbnail img-circle " src="img/actor6.jpeg" alt="..." width="100">
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">
+                                <span class="text-danger">【热】</span>
+                                从零玩转HTML5+跨平台
+                            </h4>
+                            <p class="text-muted" style="margin-top: 10px;">
+                                屏幕阅读器是一种可将文字、图形以及电脑接口的其他部分（藉文字转语音技术）转换成语音及/或点字的软件。
+                            </p>
+                        </div>
+                        <div class="media-right text-danger">
+                            206节课
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /热门课程 -->
+    <!-- 友情链接 -->
+    <section id="link">
+        <!-- 标题 -->
+        <div class="title">
+            <h1 class="text-center"><strong>友情链接</strong></h1>
+            <img src="img/xx.png" alt="" class="img-responsive">
+        </div>
+        <!-- 内容 -->
+        <ul class="logos">
+            <li><a href=""><img src="img/logo1.jpg" width="100" alt=""></a></li>
+            <li><a href=""><img src="img/logo2.jpg" width="100" alt=""></a></li>
+            <li><a href=""><img src="img/logo3.jpg" width="100" alt=""></a></li>
+            <li><a href=""><img src="img/logo4.jpg" width="100" alt=""></a></li>
+            <li><a href=""><img src="img/logo5.jpg" width="100" alt=""></a></li>
+            <li><a href=""><img src="img/logo6.jpg" width="100" alt=""></a></li>
+            <li><a href=""><img src="img/logo7.jpg" width="100" alt=""></a></li>
+        </ul>
+    </section>
+    <!-- /友情链接 -->
+    <!-- 尾部 -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row" style="padding-top: 20px;">
+                <div class="col-md-3 col-md-offset-1 one">
+                    <div class="row">
+                        <ul class="col-md-6">
+                            <li><a href="">关于我们</a></li>
+                            <li><a href="">课程介绍</a></li>
+                            <li><a href="">热门课程</a></li>
+                        </ul>
+                        <ul class="col-md-6">
+                            <li><a href="">名师授课</a></li>
+                            <li><a href="">课堂互动</a></li>
+                            <li><a href="">联系我们</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 two">
+                    <h5>公司地址：上海市松江...</h5>
+                    <h5>联系电话：8888888</h5>
+                    <h5>地址邮箱：8888888@163.com</h5>
+                </div>
+                <div class="col-md-3 three">
+                    <h5>联系我们</h5>
+                    <div>
+                        <a href=""><img src="img/wx.jpg" class="" alt="" width="50" data-toggle="tooltip" data-placement="bottom" title="关注微信号"></a>
+                        <a href=""><img src="img/sina.jpg" class="" alt="" width="50" data-toggle="tooltip" data-placement="bottom" title="关注新浪微博"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /尾部 -->
+    <!-- 回到顶部 -->
+    <a id="btn-backTop" class="btn btn-default" href="javascript:void(0)" role="button">
+        <i class="glyphicon glyphicon-chevron-up"></i>
+    </a>
+    <!-- /回到顶部 -->
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="lib/jquery/jquery-3.4.1.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

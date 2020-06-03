@@ -1,0 +1,94 @@
+body,
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+table,
+td,
+img,
+div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: #fff;
+    color: #333;
+    /*font-size: 12px;*/
+    margin-top: 5px;
+    font-family: "SimSun", "宋体", "Arial Narrow";
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+select,
+input,
+img,
+select {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*************************注册按钮***********************************/
+.btn-regsiter {
+    color: #FFFFFF;
+    background-color: #0AB4F7;
+    border-color: #F2F2F2;
+}
+
+.btn-regsiter:hover,
+.btn-regsiter:focus,
+.btn-regsiter:active,
+.btn-regsiter.active,
+.open .dropdown-toggle.btn-regsiter {
+    color: #FFFFFF;
+    background-color: #086DF2;
+    border-color: #F2F2F2;
+}
+
+.btn-regsiter:active,
+.btn-regsiter.active,
+.open .dropdown-toggle.btn-regsiter {
+    background-image: none;
+}
+
+.btn-regsiter.disabled,
+.btn-regsiter[disabled],
+fieldset[disabled] .btn-regsiter,
+.btn-regsiter.disabled:hover,
+.btn-regsiter[disabled]:hover,
+fieldset[disabled] .btn-regsiter:hover,
+.btn-regsiter.disabled:focus,
+.btn-regsiter[disabled]:focus,
+fieldset[disabled] .btn-regsiter:focus,
+.btn-regsiter.disabled:active,
+.btn-regsiter[disabled]:active,
+fieldset[disabled] .btn-regsiter:active,
+.btn-regsiter.disabled.active,
+.btn-regsiter[disabled].active,
+fieldset[disabled] .btn-regsiter.active {
+    background-color: #0AB4F7;
+    border-color: #F2F2F2;
+}
+
+.btn-regsiter .badge {
+    color: #0AB4F7;
+    background-color: #FFFFFF;
+}
+
+/*************************注册按钮***********************************/
